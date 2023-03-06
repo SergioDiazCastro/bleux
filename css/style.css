@@ -275,13 +275,16 @@ footer{
 
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 720px){
+
+
     .nav_bar ul{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 100%;
         list-style: none;
+        font-size: 15px;
     }
     
     .nav_bar nav{
@@ -289,6 +292,7 @@ footer{
         justify-content: space-between;
        width: 80%;
     }
+
 
     #aside1{
         display: flex;
@@ -364,7 +368,7 @@ footer{
         flex-wrap: wrap;
         width: 40%;
         height: 50%;
-        padding-top: 70px;
+        padding-top: 50px;
         flex-direction: column;       
         margin-bottom: 2%;
     }
@@ -424,7 +428,7 @@ footer{
 
     .box{
         width: 60%;
-        height: 558px;
+        height: 620px;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         border-radius: 5px;
@@ -432,7 +436,7 @@ footer{
     }
 
     .box img{
-        margin-left: 130px;
+        margin-left: 165px;
         width: 25%;
     }
     .box ul{
@@ -492,7 +496,6 @@ footer{
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         background-color: gray;
-        margin-top: 20%;
         text-align: center;
     }
     .box button{
@@ -502,10 +505,7 @@ footer{
         border-radius: 5px;
         width: 60%;
         font-size: 22px;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    
     }
     .box .buto1{
         background-color: #F41486;
@@ -526,5 +526,6 @@ footer{
 
     footer p{
         margin-left: 15px;
+        align-self: center;
     }
 }
