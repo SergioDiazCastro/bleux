@@ -275,14 +275,14 @@ footer{
 
 
 
-@media screen and (min-width: 720px){
+@media screen and (max-width: 720px){
 
 
     .nav_bar ul{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
-        width: 100%;
         list-style: none;
         font-size: 15px;
     }
@@ -363,6 +363,12 @@ footer{
         height: 66%;
     }
 
+    .content2 h1{
+        width: 100%;
+        color: #F41486;
+        font-size: 40px;
+        text-align: center;
+    }
     .art1{
         display: flex;
         flex-wrap: wrap;
