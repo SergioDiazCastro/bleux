@@ -275,9 +275,9 @@ footer{
 
 
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 600px){
 
-
+    
     .nav_bar ul{
         display: flex;
         flex-wrap: wrap;
@@ -290,7 +290,7 @@ footer{
     .nav_bar nav{
         display: flex;
         justify-content: space-between;
-       width: 80%;
+       width: 100%;
     }
 
 
@@ -364,10 +364,11 @@ footer{
     }
 
     .content2 h1{
+        display: flex;
+        justify-content: center;
         width: 100%;
         color: #F41486;
-        font-size: 40px;
-        text-align: center;
+        font-size: 3em;
     }
     .art1{
         display: flex;
