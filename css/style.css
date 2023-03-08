@@ -293,6 +293,9 @@ footer{
        width: 100%;
     }
 
+    nav ul button{
+        width: 30%;
+    }
 
     #aside1{
         display: flex;
@@ -443,7 +446,7 @@ footer{
     }
 
     .box img{
-        margin-left: 165px;
+        margin-left: 135px;
         width: 25%;
     }
     .box ul{
@@ -466,6 +469,9 @@ footer{
         list-style: url(../images/xBlack.png );
     }
     
+    .box ul{
+        margin-right: 40px;
+    }
     .box h3{
         color: #000000;
         text-align: center;
@@ -474,7 +480,6 @@ footer{
         color: #F41486;
         text-align: center;
         font-size: 15px;
-        width: 50%;
     }
     .box p{
         margin-top: 10%;
