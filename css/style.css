@@ -390,6 +390,7 @@ footer{
 
     .art1 img{
         width: 100%;
+        padding-top: 70px;
     }
     
 
@@ -530,13 +531,15 @@ footer{
         flex-direction: row;
         background-color: rgb(204, 203, 203);
         justify-content: space-evenly;
-        
-        padding-right: 20px;
     }
 
     footer p{
         display: flex;
         align-self: center;
-        padding-left: 20px;
+        padding-left: 30px;
+    }
+
+    footer img{
+        width: 10%;
     }
 }
