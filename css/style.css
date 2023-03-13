@@ -241,7 +241,7 @@ article p.part{
 .box .but,.but1{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: gray;
+    background-color: rgb(236, 236, 236);
     margin-top: 20%;
     
 }
@@ -507,7 +507,7 @@ footer{
     .box .but,.but1{
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
-        background-color: gray;
+        background-color: rgb(236, 236, 236);
         text-align: center;
     }
     .box button{
@@ -600,7 +600,7 @@ footer{
         color: white;
         font-size: 0.8em; 
         margin: 0;
-        padding-left: 10px;
+        padding-left: 43px;
     }
 
     #aside1 .botones{
@@ -623,9 +623,8 @@ footer{
         border-radius: 5px;
         border: none;
         color: rgb(187, 0, 171);
-        font-size: 10px;
-        padding-left: 4%;
-        padding-right: 4%;
+        font-size: 13px;
+        
     }
     .botones .btn2{
         background: none;
@@ -634,9 +633,8 @@ footer{
         border-radius: 5px;
         color: azure;
         border-color: white;
-        font-size: 10px;
-        padding-left: 4%;
-        padding-right: 4%;
+        font-size: 14px;
+       
     }
 
     #aside2 img{
@@ -776,7 +774,7 @@ footer{
     .box .but,.but1{
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
-        background-color: gray;
+        background-color: rgb(236, 236, 236);
         text-align: center;
     }
     .box button{
