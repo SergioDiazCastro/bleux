@@ -532,9 +532,7 @@ footer{
         display: flex;
         flex-direction: row;
         background-color: rgb(204, 203, 203);
-        justify-content: space-around;
-        width: 100%;
-       
+        justify-content: space-evenly;
     }
 
     footer p{
