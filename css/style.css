@@ -277,6 +277,11 @@ footer{
 
 @media screen and (max-width: 480px){
 
+
+    .nav_bar{
+        display: flex;
+        flex-wrap: wrap;
+    }
     
     .nav_bar ul{
         display: flex;
@@ -294,7 +299,7 @@ footer{
     }
 
     nav ul button{
-        width: 30%;
+        height: 2em;
     }
 
     #aside1{
