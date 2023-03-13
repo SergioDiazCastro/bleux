@@ -313,6 +313,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         background-color: #2E2550;
+        align-items: center;
     }
 
    
@@ -322,24 +323,26 @@ footer{
         justify-content: flex-start;
         color: white;
         font-size: 2em;
+        margin: 0;
     }
 
     #aside1 p{
         color: white;
         font-size: 0.8em; 
+        margin: 0;
     }
 
     #aside1 .botones{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        
         width: 60%;
         height: 12%;
         padding: 0.5%;
         border: 2px solid;
         border-color: rgb(136, 136, 136);
         border-radius: 5px;
+        margin: 0;
     }
 
     .botones .btn1{
@@ -349,7 +352,7 @@ footer{
         border-radius: 5px;
         border: none;
         color: rgb(187, 0, 171);
-        font-size: 14px;
+        font-size: 10px;
         padding-left: 4%;
         padding-right: 4%;
     }
@@ -360,7 +363,7 @@ footer{
         border-radius: 5px;
         color: azure;
         border-color: white;
-        font-size: 14px;
+        font-size: 10px;
         padding-left: 4%;
         padding-right: 4%;
     }
