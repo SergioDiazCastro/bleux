@@ -267,11 +267,24 @@ article p.part{
 footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-right: 50px;
     background-color: rgb(204, 203, 203);
-    justify-content: space-evenly;
-    width: 100%;
     margin: 0px;
 }
+
+.images{
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}
+
+.images img{
+    padding-right: 25px;
+}
+
 
 
 
@@ -440,9 +453,9 @@ footer{
     }
 
     .box{
-        display: flex;
+        display: block;
         flex-direction: column;
-        width: 60%;
+        width: 100%;
         height: 600px;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
@@ -540,13 +553,22 @@ footer{
         padding-left: 30px;
     }
 
-    footer img{
-        width: 10%;
+    .images{
+        display: flex;
+        flex-direction: row;
+        width: 20px;
+        height: 20px;
+        align-self: center;
     }
+    
+    .images img{
+        padding-right: 10px;
+    }
+
 }
 
 
-@media screen  and (min-width: 768px){
+@media screen  and (max-width: 768px){
     html, body{
         max-width: 100%;
        overflow-x: hidden;
@@ -804,10 +826,16 @@ footer{
     footer p{
         display: flex;
         align-self: center;
-        padding-left: 30px;
     }
 
-    footer img{
-        width: 10%;
+    .images{
+        display: flex;
+        flex-direction: row;
+        width: 25px;
+        height: 25px;
+        align-self: center;
+    }
+    .images img{
+        padding-right: 10px;
     }
 }
