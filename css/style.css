@@ -277,8 +277,9 @@ footer{
 
 @media screen and (max-width: 480px){
 
-    body{
-        margin: 0px;
+    html, body{
+        max-width: 100%;
+       overflow-x: hidden;
     }
 
     .nav_bar{
@@ -313,6 +314,8 @@ footer{
         justify-content: center;
         background-color: #2E2550;
     }
+
+   
 
     #aside1 h1{
         display: flex;
@@ -365,8 +368,7 @@ footer{
     #aside2 img{
         padding-left: 35%;
         padding-top: 10%;
-        width: 30%;
-        height: 66%;
+        width: 40%;
     }
 
     .content2 h1{
@@ -383,6 +385,10 @@ footer{
         padding-top: 50px;
         flex-direction: column;       
         align-content: flex-end;
+    }
+
+    .art1 img{
+        width: 80%;
     }
     
 
