@@ -277,6 +277,9 @@ footer{
 
 @media screen and (max-width: 480px){
 
+    body{
+        margin: 0px;
+    }
 
     .nav_bar{
         display: flex;
@@ -390,7 +393,6 @@ footer{
         height: 50%;
         flex-direction: column;
         padding-left: 15%;       
-        margin-bottom: 2%;
     }
 
     .art2 ul{
