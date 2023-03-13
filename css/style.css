@@ -330,6 +330,7 @@ footer{
         color: white;
         font-size: 0.8em; 
         margin: 0;
+        padding-left: 10px;
     }
 
     #aside1 .botones{
@@ -371,7 +372,7 @@ footer{
     #aside2 img{
         padding-left: 35%;
         padding-top: 10%;
-        width: 40%;
+        width: 50%;
     }
 
     .content2 h1{
@@ -443,7 +444,7 @@ footer{
         display: flex;
         flex-direction: column;
         width: 60%;
-        height: 620px;
+        height: 600px;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         border-radius: 5px;
@@ -539,5 +540,6 @@ footer{
     footer p{
         display: flex;
         align-self: center;
+        padding-left: 10px;
     }
 }
