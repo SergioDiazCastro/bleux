@@ -544,7 +544,9 @@ footer{
         width: 10%;
     }
 }
-@media screen  and (min-width: 768px)(orientation: landscape){
+
+
+@media screen  and (max-width: 768px){
     html, body{
         max-width: 100%;
        overflow-x: hidden;
@@ -577,22 +579,21 @@ footer{
 
     #aside1{
         display: flex;
-        height: 280px;
         width: 50%;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         background-color: #2E2550;
         align-items: center;
+      
     }
 
-   
 
     #aside1 h1{
         display: flex;
-        justify-content: flex-start;
         color: white;
         font-size: 2em;
         margin: 0;
+
     }
 
     #aside1 p{
