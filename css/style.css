@@ -550,7 +550,8 @@ footer{
     footer p{
         display: flex;
         align-self: center;
-        padding-left: 25px;
+        margin-left: 20px;
+        width: 50%;
     }
 
     .images{
