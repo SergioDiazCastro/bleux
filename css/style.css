@@ -455,7 +455,7 @@ footer{
     .box{
         display: block;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         height: 600px;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
