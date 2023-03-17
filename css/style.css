@@ -464,8 +464,8 @@ footer{
 
     .box img{
         display: flex;
-        align-self: center;
         width: 25%;
+        margin-left: 38%;
     }
     .box ul{
         text-align: center;
