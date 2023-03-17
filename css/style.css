@@ -551,15 +551,15 @@ footer{
         display: flex;
         align-self: center;
         margin-left: 20px;
-        width: 50%;
+        
     }
 
     .images{
         display: flex;
         flex-direction: row;
-        width: 15px;
         height: 15px;
         align-self: center;
+        margin-right: 80px;
     }
     
    
